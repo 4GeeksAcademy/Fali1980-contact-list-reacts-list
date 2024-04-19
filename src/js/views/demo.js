@@ -21,11 +21,11 @@ export const Demo = () => {
 							key={index}
 							className="list-group-item "
 							>
-							<div className= "row row1 justify-content-end">
+							<div className= "row row1">
 								<div className= "col">
 									<img src="https://i.pinimg.com/474x/bd/f4/d3/bdf4d3fe1f9a17136319df951fe9b3e0.jpg" alt="contact-photo" className="img-circle"></img>
 								</div>
-								<div className= "col text-right mx-5 my-4">
+								<div className= "col mx-5 my-4">
 									<div className= "row">
 										<div className= "col">
 											{item.name}
@@ -35,6 +35,7 @@ export const Demo = () => {
 									<div className= "row">
 										<div className= "col">
 											{item.address}
+											
 										</div>	
 									</div>
 									<div className= "row">
@@ -50,7 +51,11 @@ export const Demo = () => {
 									</div>
 									{item.id}
 								</div>
-								<div className= "col  mt-5 mx-0">
+								<div className= "col justify-content-end p-3 mx-0">
+								<button className="btn btn-success" onClick={()=>actions.deleteContact(item.id)}>
+									Edit
+
+								</button>
 								<button className="btn btn-success" onClick={()=>actions.deleteContact(item.id)}>
 									Delete
 

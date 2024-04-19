@@ -26,12 +26,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 				getActions().changeColor(0, "green");
 			},
 			deleteContact: (indexToDelete) => {
-				const store = getStore();
-				setStore({ contacts: store.contacts.filter((contact, index) => index != indexToDelete) });
+				// const store = getStore();
+				// setStore({ contacts: store.contacts.filter((contact, index) => index != indexToDelete) });
 				const requestOptions = {
 					method: "DELETE",
-					headers: myHeaders,
-					body: raw,
 					redirect: "follow"
 				  };
 				  
