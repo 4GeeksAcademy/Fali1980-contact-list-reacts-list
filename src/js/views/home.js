@@ -41,7 +41,7 @@ export const Home = () => {
                 setPhone("");
 				fetch ('https://playground.4geeks.com/contact/agendas/Fali1980/contacts')
 						.then((response)=> response.json() )
-						.then((data)=> setStore({ contacts: data.contacts }))
+						.then((data)=> actions.setContacts(data.contacts))
             })
             .catch((error) => console.error(error));
     }

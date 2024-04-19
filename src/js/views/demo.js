@@ -52,8 +52,8 @@ export const Demo = () => {
 									{item.id}
 								</div>
 								<div className= "col justify-content-end p-3 mx-0">
-								<button className="btn btn-success" onClick={()=>actions.deleteContact(item.id)}>
-									Edit
+								<button className="btn btn-success" onClick={()=>actions.editContact(item.id)}>
+									Edit contact
 
 								</button>
 								<button className="btn btn-success" onClick={()=>actions.deleteContact(item.id)}>

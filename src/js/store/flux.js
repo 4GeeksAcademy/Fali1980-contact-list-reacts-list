@@ -25,6 +25,9 @@ const getState = ({ getStore, getActions, setStore }) => {
 			exampleFunction: () => {
 				getActions().changeColor(0, "green");
 			},
+			setContacts: (contacts) => { 
+				setStore({ contacts: contacts })
+			},
 			deleteContact: (indexToDelete) => {
 				// const store = getStore();
 				// setStore({ contacts: store.contacts.filter((contact, index) => index != indexToDelete) });
