@@ -1,20 +1,7 @@
-/* body {
-    width: 1000px;
-    margin: auto;
-    background-image: url(https://static.vecteezy.com/system/resources/previews/027/613/243/non_2x/ripped-kraft-paper-wallpaper-isolated-on-white-background-free-photo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    min-height: 100vh;
-    animation: moveBackground 20s linear infinite;
+body {
+   
+    background-image: url(https://cavitex.es/wp-content/uploads/2018/06/fondo_contacto_1920_740.jpg);
+    
   }
   
-  @keyframes moveBackground {
-    0%,
-    100% {
-      background-position: 100% 100%;
-    }
-    50% {
-      background-position: 0% 0%;
-    }
-  } */
+  

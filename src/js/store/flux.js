@@ -1,6 +1,7 @@
 import { redirect } from "react-router";
 
 const getState = ({ getStore, getActions, setStore }) => {
+
 	return {
 		store: {
 			demo: [
@@ -17,7 +18,11 @@ const getState = ({ getStore, getActions, setStore }) => {
 			],
 			contacts: [
 				
-			]
+			],
+			contactToEdit: {
+
+			}
+		
 
 		},
 		actions: {

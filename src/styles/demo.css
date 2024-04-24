@@ -2,8 +2,8 @@
     width: 50%;
     border-radius: 50%;
 }
-.col {
-    border: 1px solid red;
+.fs-1 {
+    border: 3px solid black;
 }
 .row1 {
     border: 1px solid black;
